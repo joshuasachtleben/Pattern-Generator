@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pattern Generator</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <div id="controls">
+      <output for="x" id="xVal">x-axis Velocity: 2.0</output>
+      <input type="range" id="x" min="1.0" max="10.0" value="2.0" step="0.1">
+      <output for="y" id="yVal">y-axis Velocity: 2.0</output>
+      <input type="range" id="y" min="1.0" max="10.0" value="2.0" step="0.1">
+      <button id="update">Update</button>
+    </div>
+    <script type="text/javascript" src="js/canvas.js"></script>
+  </body>
+</html>
